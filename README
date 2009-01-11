@@ -39,7 +39,7 @@ To install the Rails plugin, run:
   script/plugin install git://github.com/fauna/has_many_polymorphs.git
 
 There's also a gem version. To install it instead, run: 
-  sudo gem install has_many_polymorphs
+  sudo gem install johnsbrn-has_many_polymorphs
   
 If you are using the gem, make sure to add <tt>require 'has_many_polymorphs'</tt> to <tt>environment.rb</tt>, before Rails::Initializer block.
 
