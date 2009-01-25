@@ -1,5 +1,23 @@
 
 require 'echoe'
+require 'rake'
+require 'rake/testtask'
+require 'rake/rdoctask'
+require 'rcov/rcovtask'
+
+begin
+  require 'jeweler'
+  Jeweler::Tasks.new do |s|
+    s.name = %q{has_many_polymorphs}
+    s.summary = "An ActiveRecord plugin for self-referential and double-sided polymorphic associations."
+    s.email = %q{}
+    s.homepage = "http://blog.evanweaver.com/files/doc/fauna/has_many_polymorphs/"
+    s.description = %q{An ActiveRecord plugin for self-referential and double-sided polymorphic associations.}
+    s.authors = ["Evan Weaver"]
+  end
+rescue LoadError
+  puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
+end
 
 Echoe.new("has_many_polymorphs") do |p|  
   p.project = "fauna"
