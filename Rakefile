@@ -1,5 +1,5 @@
 
-require 'echoe'
+#require 'echoe'
 require 'rake'
 require 'rake/testtask'
 require 'rake/rdoctask'
@@ -19,17 +19,17 @@ rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
 end
 
-Echoe.new("has_many_polymorphs") do |p|  
-  p.project = "fauna"
-  p.summary = "An ActiveRecord plugin for self-referential and double-sided polymorphic associations."
-  p.url = "http://blog.evanweaver.com/files/doc/fauna/has_many_polymorphs/"  
-  p.docs_host = "blog.evanweaver.com:~/www/bax/public/files/doc/"  
-  p.dependencies = ["activerecord"]
-  p.rdoc_pattern = /polymorphs\/association|polymorphs\/class_methods|polymorphs\/reflection|polymorphs\/autoload|polymorphs\/configuration|README|CHANGELOG|TODO|LICENSE|templates\/migration\.rb|templates\/tag\.rb|templates\/tagging\.rb|templates\/tagging_extensions\.rb/    
-  p.require_signed = true
-  p.clean_pattern += ["**/ruby_sess*", "**/generated_models/**"]
-  p.test_pattern = ["test/unit/*_test.rb", "test/integration/*_test.rb", "test/generator/*_test.rb"]
-end
+#Echoe.new("has_many_polymorphs") do |p|  
+#  p.project = "fauna"
+#  p.summary = "An ActiveRecord plugin for self-referential and double-sided polymorphic associations."
+#  p.url = "http://blog.evanweaver.com/files/doc/fauna/has_many_polymorphs/"  
+#  p.docs_host = "blog.evanweaver.com:~/www/bax/public/files/doc/"  
+#  p.dependencies = ["activerecord"]
+#  p.rdoc_pattern = /polymorphs\/association|polymorphs\/class_methods|polymorphs\/reflection|polymorphs\/autoload|polymorphs\/configuration|README|CHANGELOG|TODO|LICENSE|templates\/migration\.rb|templates\/tag\.rb|templates\/tagging\.rb|templates\/tagging_extensions\.rb/    
+#  p.require_signed = true
+#  p.clean_pattern += ["**/ruby_sess*", "**/generated_models/**"]
+#  p.test_pattern = ["test/unit/*_test.rb", "test/integration/*_test.rb", "test/generator/*_test.rb"]
+#end
 
 desc "Run all the tests for every database adapter" 
 task "test_all" do
