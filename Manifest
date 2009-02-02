@@ -1,9 +1,4 @@
 CHANGELOG
-LICENSE
-README
-Rakefile
-TODO
-VERSION.yml
 examples/hmph.rb
 generators/tagging/tagging_generator.rb
 generators/tagging/templates/migration.rb
@@ -25,6 +20,10 @@ lib/has_many_polymorphs/rake_task_redefine_task.rb
 lib/has_many_polymorphs/reflection.rb
 lib/has_many_polymorphs/support_methods.rb
 lib/has_many_polymorphs.rb
+LICENSE
+Manifest
+Rakefile
+README
 test/fixtures/bow_wows.yml
 test/fixtures/cats.yml
 test/fixtures/eaters_foodstuffs.yml
@@ -171,4 +170,4 @@ test/schema.rb
 test/setup.rb
 test/test_helper.rb
 test/unit/has_many_polymorphs_test.rb
-Manifest
+TODO

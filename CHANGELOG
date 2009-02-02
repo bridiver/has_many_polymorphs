@@ -1,4 +1,6 @@
-v2.13. Update for Rails 2.2 and create gem
+v2.13.2 Merge branch 'master' of git://github.com/fauna/has_many_polymorphs
+
+v2.13. Merge various fixes for Rails 2.2.2.
 
 v2.12. Improvements to the test suite; bugfixes for STI children (rsl). Remove fancy dependency system in favor of using Dispatcher::to_prepare every time.
 
